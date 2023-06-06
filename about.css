@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about-container {
+  margin-top: 40px;
+
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+
+.history-res {
+  width: 30%;
+  line-height: 1.5;
+}
+
+.history-img img {
+  width: 400px;
+  margin-top: 20px;
+  height: 300px;
+}
+
+
+
+@media only screen and (max-width: 375px) {
+    .about-container { 
+        gap: 1px;
+        flex-direction: column;
+    }
+
+    .history-res {
+        width: 100%;
+        line-height: 1.5;
+        padding: 20px;
+      }
+
+      .history-img img {
+       
+        height: 200px;
+        width: 350px;
+        margin-left: 10px;
+      }
+  }
